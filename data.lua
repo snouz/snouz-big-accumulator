@@ -225,17 +225,7 @@ data:extend(
       audible_distance_modifier = 0.5
     },
 
-    --circuit_connector = circuit_connector_definitions["accumulator"],
-    circuit_wire_connection_point = {
-        shadow = {
-          red = {0.984375, 1.10938},
-          green = {0.890625, 1.10938}
-        },
-        wire = {
-          red = {0.6875, 0.59375},
-          green = {0.6875, 0.71875}
-        }
-      },
+    circuit_connector = circuit_connector_definitions["accumulator"],
     circuit_wire_max_distance = 9,
 
     default_output_signal = {type = "virtual", name = "signal-A"}
