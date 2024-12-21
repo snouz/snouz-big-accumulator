@@ -111,7 +111,8 @@ data:extend(
     pick_sound = item_sounds.electric_large_inventory_pickup,
     drop_sound = item_sounds.electric_large_inventory_move,
     place_result = "big-accumulator",
-    stack_size = 20
+    stack_size = 20,
+    weight = 1000 * kg
   },
 
   {
@@ -228,7 +229,8 @@ data:extend(
     circuit_connector = circuit_connector_definitions["accumulator"],
     circuit_wire_max_distance = 9,
 
-    default_output_signal = {type = "virtual", name = "signal-A"}
+    default_output_signal = {type = "virtual", name = "signal-A"},
+    weight = 200 * kg
   },
 
 
