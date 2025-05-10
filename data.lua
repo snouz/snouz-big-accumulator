@@ -112,7 +112,7 @@ data:extend(
     drop_sound = item_sounds.electric_large_inventory_move,
     place_result = "big-accumulator",
     stack_size = 20,
-    weight = 1000 * kg
+    weight = 200 * kg
   },
 
   {
